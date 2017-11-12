@@ -66,7 +66,7 @@ namespace MultiUserPaint
             mutexObj.ReleaseMutex();
         }
 
-        static string GetCanvas()
+        static string GetCanvas() 
         {
             string text = "";
             foreach (string pixel in Canvas)
